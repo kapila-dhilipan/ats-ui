@@ -1,0 +1,104 @@
+body{
+    font-family: 'Segoe UI';
+  }
+  
+  .employee-details-header{
+    background-color:  #EDF2F6;
+  
+    height: 50px;
+    
+    font-size: 12px;
+  }
+  .Company-Name-Style{
+    width: 125px;
+   height: 2rem;
+  }
+  .Start-Date-Style{
+    width:90px;
+    
+  }
+  .End-Date-Style{
+    width:90px;
+    
+  }
+  .Job-role-Style{
+    width:105px;
+    
+  }
+  .Work-Model-Style{
+    width:110px;
+    
+  }
+  .CTC-Style{
+    width:80px;
+    
+  }
+  .Employement-Style{
+    width:150px;
+    
+  }
+  .Industry-Type-Style{
+    width:140px;
+    
+  }
+  .C2H-Payroll-Style{
+    width:120px;
+    
+  }
+  .Job-SKils-Style{
+    width:120px;
+    
+  }
+  .details-container{
+  
+    padding-top: 20px;
+  }
+  .cancel-icon-style{
+    padding-top: 5px;
+    display:flex;
+    align-items: center;
+  }
+  .add-icon{
+    display: flex;
+    padding-top: 10;
+  
+    justify-content: flex-end;
+    padding-right: 3%;
+  }
+  h5{
+    margin-bottom:0;
+    padding:0;
+    display:flex;
+    width:40%;
+  }
+  .EmpDetail{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 33px;
+    padding-top: 22px;
+  }
+  .AddIcon{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+height: 33px;
+    padding-top: 22px;
+
+  }
+  .p{
+    font-weight: 700;
+  }
+  .field-242{
+    background-color: yellow;
+    height: 10px;
+  }
+  .icon-244{
+    size: 2px;
+  }

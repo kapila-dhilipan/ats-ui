@@ -1,0 +1,80 @@
+{
+  "name": "sight-spectrum-ats",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fluentui/font-icons-mdl2": "^8.4.13",
+    "@fluentui/react": "^8.96.0",
+    "@fluentui/react-icons": "^2.0.186",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.14",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@tiptap/extension-underline": "^2.0.0-beta.207",
+    "@tiptap/react": "^2.0.0-beta.207",
+    "@tiptap/starter-kit": "^2.0.0-beta.207",
+    "@uifabric/charting": "^4.23.24",
+    "axios": "^1.2.0",
+    "ckeditor5": "^35.3.2",
+    "classnames": "^2.3.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "fluentui-react-grid": "^1.0.0",
+    "generate-password": "^1.7.0",
+    "generate-unique-id": "^2.0.1",
+    "html-react-parser": "^3.0.4",
+    "html-to-draftjs": "^1.5.0",
+    "make-styles": "^0.0.1",
+    "moment": "^2.29.4",
+    "office-ui-fabric-react": "^7.199.5",
+    "office-ui-fabric-react-pagination": "^0.0.8",
+    "prosemirror-commands": "^1.5.0",
+    "prosemirror-dropcursor": "^1.6.1",
+    "prosemirror-gapcursor": "^1.3.1",
+    "prosemirror-history": "^1.3.0",
+    "prosemirror-keymap": "^1.2.0",
+    "prosemirror-schema-list": "^1.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.7.1",
+    "react-id-generator": "^3.0.2",
+    "react-iframe": "^1.8.5",
+    "react-moment": "^1.1.2",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@griffel/webpack-loader": "^2.0.13"
+  }
+}

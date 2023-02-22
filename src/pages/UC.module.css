@@ -1,0 +1,75 @@
+.headerStyle{
+    width: 100%;
+}
+.title{
+    float: left;
+    width: 93%;
+}
+.calendar{
+    float: right;
+    width: 7%;
+}
+.image>img {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.cardstyle1 >Card{
+    height: 100px;
+}
+.labelsdesign{
+    display: flex;
+    justify-content:space-evenly;
+    padding:20px;
+    
+}
+.hrdesignbox{
+    display: flex;
+    justify-content: center;
+}
+.hrdesign{
+    width: 80%;
+}
+th {
+    text-align: left;
+    word-spacing: 2px;
+}
+th>img {
+    padding-left: 10px;
+}
+.h3Avatar {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    width: 100px;
+}
+hr {
+    width: 100%;
+}
+h2,h3{
+    font-weight: 500;
+}
+.trWidth td{
+    width: 110%;
+    height: 45px;
+}
+.h3Style{
+    width: 100%;
+    padding-left: 30px;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+}
+.nameStyle{
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+.h3AStyle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 19px;
+    padding-left: 30px;
+}
