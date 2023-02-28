@@ -487,7 +487,7 @@ const postData2 = async(e) => {
         {
         const response = await axios({
         method: "post",
-        url: "http://localhost:5000/candidate/post",
+        url: "http://13.228.78.94:4001",
         data: formData
       }).catch(error=> {
       console.log(error)
