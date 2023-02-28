@@ -280,7 +280,7 @@ const closeHandler= () => {
         Data.subvendor
       ) {
         axios
-          .post("http://localhost:5000/addDemandRouter/addDemandCreate", Data)
+          .post("http://13.228.78.94:4001/addDemandRouter/addDemandCreate", Data)
           .then((res) => {
          
             if (alert) {
@@ -303,11 +303,11 @@ const closeHandler= () => {
       }
     } else if (isedit) {
       axios
-        .put(`http://localhost:5000/addDemandRouter/addDemandUpdate/${id}`, Data)
+        .put(`http://13.228.78.94:4001/addDemandRouter/addDemandUpdate/${id}`, Data)
         .then((res) => {
           setIsModalOpen(!isModalOpen);
           window.location.reload(true);
-          axios.get("http://localhost:5000/addDemandRouter/addDemandGet");
+          axios.get("http://13.228.78.94:4001/addDemandRouter/addDemandGet");
         })
         .catch((err) => console.log(err));
     }
@@ -328,7 +328,7 @@ const closeHandler= () => {
 
   //get method
   var get = async () => {
-    var datas = await axios.get("http://localhost:5000/addEmployeeRouter/get");
+    var datas = await axios.get("http://13.228.78.94:4001/addEmployeeRouter/get");
     setData(datas.data);
   };
   useEffect(() => {
