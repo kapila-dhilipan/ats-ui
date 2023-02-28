@@ -91,7 +91,7 @@ function CandidateListing() {
 
   //get method for all fields except lead
   var get = async () => {
-    var datas = await axios.get("http://localhost:5000/candidate/get");
+    var datas = await axios.get("http://13.228.78.94:4001/candidate/get");
     setData(datas.data);};
 
   useEffect(() => {
