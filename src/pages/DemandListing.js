@@ -113,7 +113,7 @@ function DemandListing() {
 
   //get method for all feilds except lead
   var get = async () => {
-    var datas = await axios.get("http://localhost:5000/addDemandRouter/addDemandGet");
+    var datas = await axios.get("http://13.228.78.94:4001/addDemandRouter/addDemandGet");
     setData(datas.data);
   };
  
@@ -126,7 +126,7 @@ function DemandListing() {
   const [lead, setLead] = useState([]);
 
   const getlead = async () => {
-    var data = await axios.get("http://localhost:5000/addEmployeeRouter/get");
+    var data = await axios.get("http://13.228.78.94:4001/addEmployeeRouter/get");
     setLead(data.data);
   };
   const handleClick = (event) => {
